@@ -14,7 +14,7 @@ Absolument, oui. Databricks permet d'écrire votre code en utilisant le langage 
 
 ## Comment puis-je télécharger mon propre jeu de données et l'utiliser dans Databricks ?
 
-Vous pouvez télécharger et gérer votre ensemble de données à l'aide du portail de la PFDS. Les données téléchargées seront stockées dans l'infonuagique à l'aide du stockage Azure Blob. Pour accéder au fichier téléchargé par programmation à l'aide de Databricks, vous devrez obtenir le chemin d'accès où le fichier est stocké. Le chemin d'accès de votre fichier téléchargé peut être obtenu à partir de la page de stockage de votre espace de travail. Pour plus d'informations sur l'accès à votre stockage dans Databricks, consultez [Accéder au stockage dans Databricks](../storage/Import-Storage.md) pour obtenir des exemples de code en Python et en R.
+Vous pouvez télécharger et gérer votre ensemble de données à l'aide du portail de la PFDS. Les données téléchargées seront stockées dans l'infonuagique à l'aide du stockage Azure Blob. Pour accéder au fichier téléchargé par programmation à l'aide de Databricks, vous devrez obtenir le chemin d'accès où le fichier est stocké. Le chemin d'accès de votre fichier téléchargé peut être obtenu à partir de la page de stockage de votre espace de travail. Pour plus d'informations sur l'accès à votre stockage dans Databricks, consultez [Accéder au stockage dans Databricks](../stockage/Importer-le-stockage.md) pour obtenir des exemples de code en Python et en R.
 
 ## Puis-je créer mon propre Cluster dans Databricks ?
 
@@ -26,7 +26,7 @@ Non, actuellement, l'environnement Databricks pris en charge par le Federal Scie
 
 ## Puis-je accéder à l'environnement Databricks à l'aide d'un carnet Jupyter fonctionnant localement ou d'IDE tels que PyCharm, VS Code et Spyder ?
 
-Oui, vous pouvez. Cependant, cela nécessite une certaine configuration à effectuer sur les Databricks. Nous avons une documentation sur [l'utilisation de Databricks avec VS Code](./vscode_extension.md) et pouvons vous fournir le support nécessaire pour configurer la connexion entre votre IDE local et l'environnement Databricks.
+Oui, vous pouvez. Cependant, cela nécessite une certaine configuration à effectuer sur les Databricks. Nous avons une documentation sur [l'utilisation de Databricks avec VS Code](./extension-vscode.md) et pouvons vous fournir le support nécessaire pour configurer la connexion entre votre IDE local et l'environnement Databricks.
 
 ## Comment mes données et le code source sont-ils protégés contre les accès non autorisés ?
 

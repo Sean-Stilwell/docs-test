@@ -1,6 +1,6 @@
 <template>
-  <header class="navbar">
-    <GcdsLangToggle :lang="currentLang" :href="langToggleHref" />
+  <header class="navbar" :lang="currentLang">
+    <GcdsLangToggle :key="`${currentLang}:${langToggleHref}`" :href="langToggleHref" />
   </header>
 </template>
 
@@ -14,18 +14,11 @@ export default {
     GcdsLangToggle
   },
 
-  data () {
-    return {
-      linksWrapMaxWidth: null
-    }
-  },
-
   computed: {
     currentLang() {
-      const currentUrl = this.$page.path.split(".html")[0];
-      const lang = currentUrl.split('/')[1];
-      console.log(lang); // Displays the correct language code in the console
-      return lang;
+      const currentPath = (this.$route?.path || this.$page.path).split('.html')[0];
+      const lang = currentPath.split('/')[1];
+      return lang === 'fr' ? 'fr' : 'en';
     },
 
     langToggleHref() {
@@ -89,7 +82,7 @@ export default {
         {"en": '/en/apps/WebApps', "fr": '/fr/apps/WebApps'},
       ];
 
-      const currentUrl = this.$page.path.split(".html")[0];
+      const currentUrl = (this.$route?.path || this.$page.path).split('.html')[0];
       const otherLang = { en: "fr", fr: "en" }[this.currentLang];
       const urlMapping = mappings.find(mapping => mapping[this.currentLang] === currentUrl);
 

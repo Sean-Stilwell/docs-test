@@ -4,18 +4,11 @@ source: /UserGuide/Databricks/Cluster-Policies.md
 draft: true
 ---
 
-# Politiques des clusters du Federal Science Datahub Databricks
-
-<!---removed due to accessibility requirements
-<video width="600" height="350" controls>
-    <source src="/api/media/cluster-policies.mp4" type="video/mp4">
-    Votre navigateur ne prend pas en charge la balise vidéo.
-</video>
--->
+# Politiques des clusters sur Databricks
 
 ## Aperçu
 
-Dans le cadre du Federal Science Datahub, nous fournissons des politiques de cluster Databricks personnalisées qui sont conçues pour vous aider à tirer le meilleur parti de vos clusters Databricks grâce à des configurations de cluster prédéfinies. Nous proposons actuellement 3 politiques de cluster en plus de la politique de calcul personnel de Databrick. Il s'agit de "Datahub Small Cluster", "Datahub Regular Cluster" et "Datahub Large Cluster". Alors que les configurations des travailleurs et des pilotes sont prédéfinies, le choix du [databricks runtime] (https://docs.databricks.com/runtime/index.html) dépend entièrement de vous. Nous allons détailler chacune de ces politiques de cluster ci-dessous.
+Dans le cadre de la Plateforme fédérale de données scientifiques, nous fournissons des politiques de cluster Databricks personnalisées qui sont conçues pour vous aider à tirer le meilleur parti de vos clusters Databricks grâce à des configurations de cluster prédéfinies. Nous proposons actuellement 3 politiques de cluster en plus de la politique de calcul personnel de Databrick. Il s'agit de "Datahub Small Cluster", "Datahub Regular Cluster" et "Datahub Large Cluster". Alors que les configurations des travailleurs et des pilotes sont prédéfinies, le choix du [databricks runtime](https://docs.databricks.com/runtime/index.html) dépend entièrement de vous. Nous allons détailler chacune de ces politiques de cluster ci-dessous.
 
 ### **Informatique personnelle**
 
@@ -23,7 +16,7 @@ Il s'agit de la politique de cluster par défaut fournie par Databricks. Elle es
 
 - **Type de nœud:** Standard_DS3_v2 (4 CPU, 14 GB de mémoire)
 
-[Plus d'informations ici sur les politiques de calcul personnel] (https://docs.databricks.com/clusters/personal-compute.html)
+[Plus d'informations ici sur les politiques de calcul personnel](https://docs.databricks.com/clusters/personal-compute.html)
 
 ### **Datahub Small Cluster**
 
@@ -63,7 +56,7 @@ Cette politique de cluster est conçue pour les charges de travail de production
 
 ## Création d'un cluster
 
-Pour plus d'informations sur la création de clusters, veuillez vous référer à la [documentation Databricks] (https://learn.microsoft.com/fr-ca/azure/databricks/clusters/configure).
+Pour plus d'informations sur la création de clusters, veuillez vous référer à la [documentation Databricks](https://learn.microsoft.com/fr-ca/azure/databricks/clusters/configure).
 
 ## A l'avenir
 

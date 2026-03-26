@@ -32,7 +32,7 @@ Une fois l'espace de travail Databricks provisionné, vous pouvez y accéder dep
 
 **Note:** Il vous sera demandé de vous connecter à nouveau en utilisant vos identifiants M365 (les mêmes que ceux utilisés pour se connecter au portail DataHub).
 
-[Ouvrir Databricks](./img/databricks-101-2.png)
+![Ouvrir Databricks](./img/databricks-101-2.png)
 
 ## Gestion des clusters Databricks
 
@@ -51,7 +51,7 @@ Pour créer un nouveau cluster Databricks :
 
 Le nouveau cluster sera créé et prêt à être utilisé.
 
-**Note:** Nous fournissons un guide détaillé sur les différents clusters. Vous pouvez vous référer au guide [Politiques de clusters](./Cluster-Policies.md) pour plus d'informations.
+**Note:** Nous fournissons un guide détaillé sur les différents clusters. Vous pouvez vous référer au guide [Politiques de clusters](./Politiques-des-clusters.md) pour plus d'informations.
 
 ![Créer un cluster Databricks](./img/databricks-101-3.png)
 

@@ -1,6 +1,0 @@
-<template><div><h1 id="monitoring-and-auditing-a-workspace" tabindex="-1"><a class="header-anchor" href="#monitoring-and-auditing-a-workspace"><span>Monitoring and Auditing a Workspace</span></a></h1>
-<p>The workspace lead and administrators must monitor account usage periodically and ensure all accounts meet the relevant policies and guidelines. They are also responsible for conducting regular audits within the workspace to ensure all security, ATIP, privacy, accessibility and legal policies are followed. Workspace leads should consult with their Departmental IT Security authorities to ensure compliance with Information system audit management requirements established by the Directive on Security Management (<a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32611" target="_blank" rel="noopener noreferrer">Directive on Security Management- Canada.ca</a> - B.2.3.8)</p>
-<p>The workspace lead is responsible for ensuring that a process is in place to ensure quick detection and reaction to information spillage events (for instance, when sensitive information is mistakenly uploaded to an unclassified workspace). Workspace leads should consult with their Departmental IT Security Authorities to ensure such an event is tracked and responded to in accordance with Departmental Incident Response Processes.</p>
-</div></template>
-
-

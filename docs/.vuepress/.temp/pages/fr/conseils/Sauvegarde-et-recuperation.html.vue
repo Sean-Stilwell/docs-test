@@ -1,6 +1,0 @@
-<template><div><h1 id="sauvegarde-et-recuperation" tabindex="-1"><a class="header-anchor" href="#sauvegarde-et-recuperation"><span>Sauvegarde et récupération</span></a></h1>
-<p>Par défaut, tous les services d'un espace de travail sont sauvegardés. Cependant, les politiques de sauvegarde diffèrent selon les services utilisés dans cet espace de travail. Si les politiques de sauvegarde existantes ne répondent pas aux exigences du département, il incombe au propriétaire de l'espace de travail de prendre les mesures nécessaires pour créer des sauvegardes externes de son code et de ses données afin de répondre à ces exigences.</p>
-<p>Veuillez consulter le document <a href="https://163gc.sharepoint.com/:w:/r/sites/ScienceProgram/_layouts/15/Doc.aspx?sourcedoc=%7B2375C215-C1F2-4796-A942-D9EFAE6F2101%7D&amp;file=FSDH%20Workspace%20Backup%20-%20User%20Guidance.docx&amp;wdOrigin=TEAMS-MAGLEV.p2p_ns.rwc&amp;action=default&amp;mobileredirect=true" target="_blank" rel="noopener noreferrer">FSDH Workspace Backup - User Guidance.docx (sharepoint.com)</a> pour plus de détails sur les conseils aux utilisateurs et les responsabilités liées aux sauvegardes de l'espace de travail.</p>
-</div></template>
-
-

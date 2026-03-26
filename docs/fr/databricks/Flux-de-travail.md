@@ -4,7 +4,7 @@ source: /UserGuide/Databricks/Workflows.md
 draft: true
 ---
 
-# Databricks Workflows
+# Flux de travail sur Databricks
 
 <!---removed due to accessibility requirements
 <video width="600" height="350" controls>
@@ -26,7 +26,7 @@ Les tâches sont les éléments constitutifs des emplois. Elles peuvent être de
 - Script Python** : cette tâche permet d'exécuter un script Python dans votre espace de travail en utilisant les paramètres de votre choix.
 - **Roue Python** : cette tâche vous permettra d'installer des paquets Python sur un cluster sélectionné, au cas où les méthodes d'installation normales ne seraient pas optimales.
 - **Spark SQL** : Une tâche Spark SQL exécute une requête SQL sur un cluster Spark. Vous pouvez passer des paramètres à la requête SQL, et la requête peut renvoyer un résultat qui peut être utilisé par d'autres tâches.
-- **Tableaux vivants delta** : Cette tâche vous permettra d'exécuter un pipeline de tables dynamiques delta. Les tables dynamiques delta sont un pipeline de flux de données spécial, sur lequel vous pouvez en savoir plus [ici] (https://www.databricks.com/product/delta-live-tables).
+- **Tableaux vivants delta** : Cette tâche vous permettra d'exécuter un pipeline de tables dynamiques delta. Les tables dynamiques delta sont un pipeline de flux de données spécial, sur lequel vous pouvez en savoir plus [ici](https://www.databricks.com/product/delta-live-tables).
 - **DBT** : DBT (Data Build Tool) est un outil en ligne de commande open-source qui vous permet de construire, tester et déployer des pipelines de données. Il est souvent utilisé en conjonction avec Databricks pour construire des pipelines de données qui transforment et chargent des données dans un entrepôt de données. DBT vous permet de définir des transformations de données en SQL et vous offre un moyen de tester et de documenter vos pipelines de données. Vous pouvez utiliser DBT pour construire des pipelines de données qui s'exécutent sur Databricks, et vous pouvez également utiliser DBT pour déployer vos pipelines de données dans d'autres environnements.
 - **Fichiers JAR** : Cette tâche vous permet d'exécuter un fichier d'archive Java sur un cluster Spark.
 - **Spark Submit** : Vous pouvez soumettre n'importe quel fichier Java, Scala, Python ou R en tant que tâche `spark-submit`, qui exécutera ces fichiers sur un cluster Spark.

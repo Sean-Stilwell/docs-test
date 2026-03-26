@@ -4,15 +4,38 @@ import { viteBundler } from "@vuepress/bundler-vite";
 
 export default defineUserConfig({
   lang: "en-CA",
-  title: "Federal Science DataHub",
+  title: "Federal Science DataHub | Plateforme fédérale de données scientifiques",
   description: "User documentation for the Federal Science DataHub",
 
   theme: defaultTheme({
     logo: "https://assets.notification.canada.ca/static/gov-canada-en.svg",
     // navbar: ["/", "/get-started"],
+    lastUpdated: false,
+    contributors: false,
     colorModeSwitch: false,
+    docsRepo: "https://github.com/Sean-Stilwell/docs-test",
+    docsBranch: "master",
+    docsDir: "docs",
     colorMode: "light",
     sidebarDepth: 0,
+    locales: {
+      "/en/": {
+        home: "/en/",
+        selectLanguageName: "English",
+        next: "Next",
+        prev: "Previous",
+        logo: "https://assets.notification.canada.ca/static/gov-canada-en.svg",
+        editLinkText: "Edit this page on GitHub",
+      },
+      "/fr/": {
+        home: "/fr/",
+        selectLanguageName: "Français",
+        next: "Prochain",
+        prev: "Précédent",
+        logo: "https://assets.notification.canada.ca/static/gov-canada-fr.svg",
+        editLinkText: "Modifier cette page sur GitHub",
+      }
+    },
     sidebar: {
       "/en/": [
         "/en/",
@@ -33,16 +56,6 @@ export default defineUserConfig({
             "/en/managing-workspaces-and-users/Invite-a-user",
             "/en/managing-workspaces-and-users/Change-a-user-role",
             "/en/managing-workspaces-and-users/CBR-management",
-          ],
-        },
-        {
-          text: "Migrating to Production",
-          collapsible: true,
-          children: [
-            "/en/migration/Storage",
-            "/en/migration/Databricks",
-            "/en/migration/PostgreSQL",
-            "/en/migration/WebApp",
           ],
         },
         {
@@ -89,6 +102,16 @@ export default defineUserConfig({
           children: ["/en/apps/WebApps"],
         },
         {
+          text: "Migrating to Production",
+          collapsible: true,
+          children: [
+            "/en/migration/Storage",
+            "/en/migration/Databricks",
+            "/en/migration/PostgreSQL",
+            "/en/migration/WebApp",
+          ],
+        },
+        {
           text: "User Guidance",
           collapsible: true,
           children: [
@@ -126,19 +149,7 @@ export default defineUserConfig({
           ],
         },
         {
-          text: "Migration vers la production",
-          link: "/fr/migration",
-          collapsible: true,
-          children: [
-            "/fr/migration/Stockage",
-            "/fr/migration/Databricks",
-            "/fr/migration/PostgreSQL",
-            "/fr/migration/AppWeb",
-          ],
-        },
-        {
           text: "Stockage",
-          link: "/fr/stockage",
           collapsible: true,
           children: [
             "/fr/stockage/Datahub-AzureStorage",
@@ -151,7 +162,6 @@ export default defineUserConfig({
         },
         {
           text: "Databricks",
-          link: "/fr/databricks",
           collapsible: true,
           children: [
             "/fr/databricks/Databricks-101",
@@ -169,7 +179,6 @@ export default defineUserConfig({
         },
         {
           text: "PostgreSQL",
-          link: "/fr/postgresql",
           collapsible: true,
           children: [
             "/fr/postgresql/Postgres",
@@ -179,13 +188,21 @@ export default defineUserConfig({
         },
         {
           text: "Applications Web",
-          link: "/fr/apps",
           collapsible: true,
           children: ["/fr/apps/WebApps"],
         },
         {
+          text: "Migration vers production",
+          collapsible: true,
+          children: [
+            "/fr/migration/Stockage",
+            "/fr/migration/Databricks",
+            "/fr/migration/PostgreSQL",
+            "/fr/migration/AppWeb",
+          ],
+        },
+        {
           text: "Conseils aux utilisateurs",
-          link: "/fr/conseils",
           collapsible: true,
           children: [
             "/fr/conseils/Code-source",
@@ -215,17 +232,13 @@ export default defineUserConfig({
 
   locales: {
     "/en/": {
-      lang: "English",
-      selectLanguageName: "English",
+      lang: "en-CA",
       title: "Federal Science DataHub",
-      logo: "https://assets.notification.canada.ca/static/gov-canada-en.svg",
       description: "User documentation for the Federal Science DataHub",
     },
     "/fr/": {
-      lang: "Français",
-      selectLanguageName: "Français",
+      lang: "fr-CA",
       title: "Plateforme fédérale de données scientifiques",
-      logo: "https://assets.notification.canada.ca/static/gov-canada-fr.svg",
       description:
         "Documentation utilisateur pour la Plateforme fédérale de données scientifiques",
     },
