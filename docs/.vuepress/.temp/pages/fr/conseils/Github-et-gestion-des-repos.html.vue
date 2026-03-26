@@ -1,0 +1,5 @@
+<template><div><h1 id="github-et-gestion-des-depots-de-code" tabindex="-1"><a class="header-anchor" href="#github-et-gestion-des-depots-de-code"><span>Github et gestion des dépôts de code</span></a></h1>
+<p>Les utilisateurs sont responsables de la configuration et de la gestion de leur code source et des dépôts Git.  La DHSF permet aux utilisateurs de se connecter à des dépôts Github privés et publics.  Il incombe à l'utilisateur de gérer les jetons Github, les mots de passe et l'accessibilité de manière appropriée et conformément aux politiques de son département.  En choisissant leur approche du développement, du partage et de la gestion du code, les utilisateurs doivent suivre les principes énoncés dans les <a href="https://www.canada.ca/en/government/system/digital-government/government-canada-digital-standards.html" target="_blank" rel="noopener noreferrer">Directives sur les normes relatives au numérique</a> et la <a href="https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=32601" target="_blank" rel="noopener noreferrer">Directive sur les services et le numérique - Canada.ca</a>.</p>
+</div></template>
+
+
