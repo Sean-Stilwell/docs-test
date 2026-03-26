@@ -1,1 +1,6 @@
 node_modules
+
+# Ignore cache and build files for VuePress
+docs/.vuepress/.cache/
+docs/.vuepress/dist/
+docs/.vuepress/.temp/
