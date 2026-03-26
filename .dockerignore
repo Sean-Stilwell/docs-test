@@ -1,0 +1,7 @@
+node_modules
+.DS_Store
+docs/.vuepress/.cache/
+docs/.vuepress/dist/
+docs/.vuepress/.temp/
+.git
+.github
